@@ -1,0 +1,24 @@
+name: kostong_app
+description: Aplikasi pencarian dan booking kost
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  http: ^1.1.2
+  intl: ^0.19.0
+  cupertino_icons: ^1.0.6
+  url_launcher: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
