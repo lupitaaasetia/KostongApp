@@ -4,6 +4,7 @@ import '../providers/auth_provider.dart';
 import 'dashboard_screen.dart';
 import 'register_screen.dart';
 import '../services/api_service.dart';
+import 'main_navigation.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -124,7 +125,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                     Navigator.pushReplacement(
                                       context,
                                       MaterialPageRoute(
-                                          builder: (_) => DashboardScreen()),
+                                          builder: (_) => MainNavigation()),
                                     );
                                   } else {
                                     setState(() {
